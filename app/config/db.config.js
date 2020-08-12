@@ -1,5 +1,8 @@
 module.exports = {
-    HOST: "localhost",
+    HOST: "cluster0-0xwgs.mongodb.net",
     PORT: 27017,
-    DB: "btc-wallet"
+    LOGIN: 'admin',
+    PASSWORD: 'admin',
+    DB: "pizza-delivery"
+    
 };
