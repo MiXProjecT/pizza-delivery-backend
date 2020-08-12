@@ -7,7 +7,7 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 const corsOptions = {
-    origin: "https://pizza-delivery-t.herokuapp.com/"
+    origin: "https://pizza-delivery-t.herokuapp.com"
 };
 
 app.use(cors(corsOptions));
